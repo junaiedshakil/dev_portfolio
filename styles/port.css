@@ -33,6 +33,18 @@ nav{
     border: none;
 
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color:#181818;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .nav-title{
     font-weight: 800;
     font-size: 45px;
@@ -75,4 +87,62 @@ nav li a{
 .banner-portfolio-pic{
     width: 580px;
     margin-right: 40px;
+}
+main{
+    width: 1140PX;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 75px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
+.text-center{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+    
+
+.skill{
+    padding: 30px;
+    box-shadow:0px 6px 50px 0px rgba(0,0,0.06) ;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.exprience-description, .exprience-sub-title{
+    color: #757575;
+}
+.exprience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.bt{
+    text-align: center;
+    margin: 40px 0;
+}
+.resume{
+    justify-content: center;
+    margin-top: 150px;
+}
+.section-title{
+    text-align: center;
 }
